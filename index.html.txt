@@ -1,0 +1,166 @@
+﻿Іван Тимошук, [22.04.2025 9:41]
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Світ Електроніки</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #003973, #e5e5be);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    nav {
+      background: #002b5c;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      margin: 5px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      margin-top: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #002b5c;
+      color: white;
+    }
+    iframe {
+      max-width: 100%;
+      margin: 10px 0;
+    }
+    .external-links {
+      background-color: #e0f7fa;
+      border-left: 5px solid #00acc1;
+      padding: 20px;
+      margin-top: 30px;
+      border-radius: 8px;
+      font-size: 1.2em;
+    }
+    .external-links h2 {
+      color: #00796b;
+    }
+    .external-links a {
+      color: #00796b;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .external-links a:hover {
+      color: #004d40;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Світ Електроніки</h1>
+    <p>Навчайся. Експериментуй. Створюй.</p>
+  </header>
+
+  <nav>
+    <a href="#theory">Теорія</a>
+    <a href="#components">Компоненти</a>
+    <a href="#projects">Проєкти</a>
+    <a href="#troubles">Несправності</a>
+    <a href="#videos">Відеоуроки</a>
+  </nav>
+
+  <div class="container" id="theory">
+    <h2>Базова теорія</h2>
+    <p>Що таке струм, напруга, опір, потужність. Закон Ома. Пояснення для новачків з прикладами. Як працює коло.</p>
+  </div>
+
+  <div class="container" id="components">
+    <h2>Компоненти</h2>
+    <ul>
+      <li>Резистори</li>
+      <li>Конденсатори</li>
+      <li>Діоди</li>
+      <li>Транзистори</li>
+      <li>Мікросхеми</li>
+      <li>Світлодіоди</li>
+      <li>Реле, дроселі, індуктивності</li>
+    </ul>
+  </div>
+
+  <div class="container" id="projects">
+    <h2>Цікаві проєкти</h2>
+    <ul>
+      <li>Миготливий світлодіод</li>
+      <li>Підсилювач звуку</li>
+      <li>Сигналізація з датчиком руху</li>
+      <li>Зарядний пристрій для АКБ</li>
+    </ul>
+  </div>
+
+  <div class="container" id="troubles">
+    <h2>Чому пристрій може не вмикатися</h2>
+    <ul>
+      <li>Немає живлення (розряджений акумулятор, зламаний адаптер)</li>
+      <li>Проблема з перемикачем живлення</li>
+      <li>Згорів запобіжник</li>
+      <li>Коротке замикання на платі</li>
+      <li>Відсутній або зламаний мікроконтролер</li>
+      <li>Несправність елементів живлення (конденсатори, стабілізатори)</li>
+      <li>Паяні з'єднання пошкоджені або з окисленням</li>
+      <li>Плата має механічні ушкодження</li>
+    </ul>
+  </div>
+
+  <div class="container" id="videos">
+    <h2>Відеоуроки</h2>
+    <h3>Як правильно залудити паяльник</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/j5Sb21qbpEQ" frameborder="0" allowfullscreen></iframe>
+
+    <h3>Що потрібно для паяння</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7jzVJg7QJdE" frameborder="0" allowfullscreen></iframe>
+
+    <h3>Як користуватись мультиметром (вольтметром)</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SaGbb7Z2vPI" frameborder="0" allowfullscreen></iframe>
+
+    <h3>Як правильно паяти акумулятори (АКБ)</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RaEwcoVd0Qs" frameborder="0" allowfullscreen></iframe>
+
+Іван Тимошук, [22.04.2025 9:41]
+<h3>Пошук несправностей у схемі</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2N7_nGwTkIg" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <div class="container external-links" id="external-links">
+    <h2>Корисні лінки</h2>
+    <ul>
+      <li><a href="https://tumowyk.github.io/I.T-/" target="_blank">Мій сайт - I.T. проєкти</a></li>
+      <li><a href="https://t.me/elekroni_top" target="_blank">Telegram група - Електроніка</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    &copy; 2025 Світ Електроніки. Всі права захищені.
+  </footer>
+</body>
+</html>
